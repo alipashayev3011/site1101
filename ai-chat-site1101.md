@@ -1,5 +1,5 @@
 # Minimal Jon Barron style index.html
-_Exported on 12/17/2025 at 23:24:52 GMT+4 from Cursor (2.2.23)_
+_Exported on 12/18/2025 at 00:39:37 GMT+4 from Cursor (2.2.23)_
 
 ---
 
@@ -2292,4 +2292,799 @@ footer a {
 
 
 Added `text-align: center;` to the `h1` rule in the existing media query. The name heading will be center-aligned only on small screens (max-width: 600px); desktop layout is unchanged.
+
+---
+
+**User**
+
+Add the same footer used on my Home and About pages to projects.html.
+Do NOT change the footer content or style.
+Just make the footer consistent across all pages.
+
+
+---
+
+**Cursor**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Əli Paşayev</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+  </nav>
+
+  <h1>Projects</h1>
+
+  <div class="project">
+    <div class="project-title">How Does Hardware Work?</div>
+    <p>In this team project for the Principles of Information Systems course, we constructed and tested basic digital logic gates (NOT, AND, and OR) using transistors, resistors, LEDs, and a breadboard. This project helped me understand how logical operations are implemented at the hardware level and how electronic components work together to perform basic computations.</p>
+    <a href="https://www.youtube.com/watch?v=UOSA5mck4Mo">demo</a>
+  </div>
+
+  <div class="project">
+    <div class="project-title">Hour of Code (Hour of AI)</div>
+    <p>In this team project for the Principles of Information Systems course, we organized and conducted an Hour of Code (Hour of AI) event for a local community. We introduced participants to basic programming concepts and algorithms using interactive tools and activities. This project helped me develop teamwork, communication skills, and the ability to explain technical concepts in a simple and engaging way.</p>
+    <a href="https://www.youtube.com/watch?v=Yr6SMMvbGIM&t=4s">demo</a>
+  </div>
+
+  <div class="project">
+    <div class="project-title">Personal Portfolio Website</div>
+    <p>In this individual project for the Principles of Information Systems course, I designed and developed a personal portfolio website using HTML and CSS with the support of GenAI tools. The project involved using Git and GitHub for version control, organizing a clean repository structure, and hosting the website on GitHub Pages. This project helped me gain practical experience in web development and version control.</p>
+    <a href="https://alipashayev3011.github.io/site1101/">demo</a> / <a href="https://github.com/alipashayev3011/site1101">code</a>
+  </div>
+
+  <hr>
+
+  <footer>
+    <a href="mailto:pashayev3011@gmail.com">Email</a>
+    <a href="https://github.com/alipashayev3011">GitHub</a>
+    <a href="https://www.codecademy.com/profiles/AliPashayev">Codecademy</a>
+    <a href="https://github.com/alipashayev3011/site1101">This Site's Repo</a>
+  </footer>
+
+</body>
+</html>
+```
+
+
+Added the same footer to `projects.html` with the same links and styling. All three pages now have consistent footers.
+
+---
+
+**User**
+
+Add an image for Project 1 on my projects.html page.
+Place the image directly under the Project 1 title.
+Use a simple <img> tag pointing to images/hardware-project.jpg.
+Ensure the image scales properly on small screens (e.g., max-width: 100%).
+Do NOT change the layout, structure, or styling significantly.
+Keep everything minimal and clean.
+
+
+---
+
+**Cursor**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Əli Paşayev</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+  </nav>
+
+  <h1>Projects</h1>
+
+  <div class="project">
+    <div class="project-title">How Does Hardware Work?</div>
+    <img src="images/hardware-project.jpg" alt="Hardware project" style="max-width: 100%; height: auto; margin: 10px 0;">
+    <p>In this team project for the Principles of Information Systems course, we constructed and tested basic digital logic gates (NOT, AND, and OR) using transistors, resistors, LEDs, and a breadboard. This project helped me understand how logical operations are implemented at the hardware level and how electronic components work together to perform basic computations.</p>
+    <a href="https://www.youtube.com/watch?v=UOSA5mck4Mo">demo</a>
+  </div>
+
+  <div class="project">
+    <div class="project-title">Hour of Code (Hour of AI)</div>
+    <p>In this team project for the Principles of Information Systems course, we organized and conducted an Hour of Code (Hour of AI) event for a local community. We introduced participants to basic programming concepts and algorithms using interactive tools and activities. This project helped me develop teamwork, communication skills, and the ability to explain technical concepts in a simple and engaging way.</p>
+    <a href="https://www.youtube.com/watch?v=Yr6SMMvbGIM&t=4s">demo</a>
+  </div>
+
+  <div class="project">
+    <div class="project-title">Personal Portfolio Website</div>
+    <p>In this individual project for the Principles of Information Systems course, I designed and developed a personal portfolio website using HTML and CSS with the support of GenAI tools. The project involved using Git and GitHub for version control, organizing a clean repository structure, and hosting the website on GitHub Pages. This project helped me gain practical experience in web development and version control.</p>
+    <a href="https://alipashayev3011.github.io/site1101/">demo</a> / <a href="https://github.com/alipashayev3011/site1101">code</a>
+  </div>
+
+  <hr>
+
+  <footer>
+    <a href="mailto:pashayev3011@gmail.com">Email</a>
+    <a href="https://github.com/alipashayev3011">GitHub</a>
+    <a href="https://www.codecademy.com/profiles/AliPashayev">Codecademy</a>
+    <a href="https://github.com/alipashayev3011/site1101">This Site's Repo</a>
+  </footer>
+
+</body>
+</html>
+```
+
+
+Added the image for Project 1 directly under the title. It uses `max-width: 100%` so it scales on small screens, and includes a small margin for spacing. The layout remains minimal and unchanged.
+
+---
+
+**User**
+
+Add an image for Project 2 (Hour of Code / Hour of AI) on my projects.html page.
+Place the image directly under the Project 2 title.
+Use a simple <img> tag pointing to images/hour-of-ai.avif.
+Ensure the image scales properly on small screens (e.g., max-width: 100%).
+Do NOT change the layout, structure, or styling significantly.
+Keep everything minimal and consistent with Project 1.
+
+
+---
+
+**Cursor**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Əli Paşayev</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+  </nav>
+
+  <h1>Projects</h1>
+
+  <div class="project">
+    <div class="project-title">How Does Hardware Work?</div>
+    <img src="images/hardware-project.jpg" alt="Hardware project" style="max-width: 100%; height: auto; margin: 10px 0;">
+    <p>In this team project for the Principles of Information Systems course, we constructed and tested basic digital logic gates (NOT, AND, and OR) using transistors, resistors, LEDs, and a breadboard. This project helped me understand how logical operations are implemented at the hardware level and how electronic components work together to perform basic computations.</p>
+    <a href="https://www.youtube.com/watch?v=UOSA5mck4Mo">demo</a>
+  </div>
+
+  <div class="project">
+    <div class="project-title">Hour of Code (Hour of AI)</div>
+    <img src="images/hour-of-ai.avif" alt="Hour of AI project" style="max-width: 100%; height: auto; margin: 10px 0;">
+    <p>In this team project for the Principles of Information Systems course, we organized and conducted an Hour of Code (Hour of AI) event for a local community. We introduced participants to basic programming concepts and algorithms using interactive tools and activities. This project helped me develop teamwork, communication skills, and the ability to explain technical concepts in a simple and engaging way.</p>
+    <a href="https://www.youtube.com/watch?v=Yr6SMMvbGIM&t=4s">demo</a>
+  </div>
+
+  <div class="project">
+    <div class="project-title">Personal Portfolio Website</div>
+    <p>In this individual project for the Principles of Information Systems course, I designed and developed a personal portfolio website using HTML and CSS with the support of GenAI tools. The project involved using Git and GitHub for version control, organizing a clean repository structure, and hosting the website on GitHub Pages. This project helped me gain practical experience in web development and version control.</p>
+    <a href="https://alipashayev3011.github.io/site1101/">demo</a> / <a href="https://github.com/alipashayev3011/site1101">code</a>
+  </div>
+
+  <hr>
+
+  <footer>
+    <a href="mailto:pashayev3011@gmail.com">Email</a>
+    <a href="https://github.com/alipashayev3011">GitHub</a>
+    <a href="https://www.codecademy.com/profiles/AliPashayev">Codecademy</a>
+    <a href="https://github.com/alipashayev3011/site1101">This Site's Repo</a>
+  </footer>
+
+</body>
+</html>
+```
+
+
+Added the image for Project 2 directly under the title, using the same styling as Project 1. It scales on small screens and keeps the layout consistent.
+
+---
+
+**User**
+
+Add an image for Project 3 (Personal Portfolio Website) on my projects.html page.
+Place the image directly under the Project 3 title.
+Use a simple <img> tag pointing to images/personal-portfolio.png.
+Ensure the image scales properly on small screens (e.g., max-width: 100%).
+Do NOT change the layout, structure, or styling significantly.
+Keep everything minimal and consistent with the other project images.
+
+
+---
+
+**Cursor**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Əli Paşayev</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+  </nav>
+
+  <h1>Projects</h1>
+
+  <div class="project">
+    <div class="project-title">How Does Hardware Work?</div>
+    <img src="images/hardware-project.jpg" alt="Hardware project" style="max-width: 100%; height: auto; margin: 10px 0;">
+    <p>In this team project for the Principles of Information Systems course, we constructed and tested basic digital logic gates (NOT, AND, and OR) using transistors, resistors, LEDs, and a breadboard. This project helped me understand how logical operations are implemented at the hardware level and how electronic components work together to perform basic computations.</p>
+    <a href="https://www.youtube.com/watch?v=UOSA5mck4Mo">demo</a>
+  </div>
+
+  <div class="project">
+    <div class="project-title">Hour of Code (Hour of AI)</div>
+    <img src="images/hour-of-ai.png" alt="Hour of AI project" style="max-width: 100%; height: auto; margin: 10px 0;">
+    <p>In this team project for the Principles of Information Systems course, we organized and conducted an Hour of Code (Hour of AI) event for a local community. We introduced participants to basic programming concepts and algorithms using interactive tools and activities. This project helped me develop teamwork, communication skills, and the ability to explain technical concepts in a simple and engaging way.</p>
+    <a href="https://www.youtube.com/watch?v=Yr6SMMvbGIM&t=4s">demo</a>
+  </div>
+
+  <div class="project">
+    <div class="project-title">Personal Portfolio Website</div>
+    <img src="images/personal-portfolio.png" alt="Personal portfolio website" style="max-width: 100%; height: auto; margin: 10px 0;">
+    <p>In this individual project for the Principles of Information Systems course, I designed and developed a personal portfolio website using HTML and CSS with the support of GenAI tools. The project involved using Git and GitHub for version control, organizing a clean repository structure, and hosting the website on GitHub Pages. This project helped me gain practical experience in web development and version control.</p>
+    <a href="https://alipashayev3011.github.io/site1101/">demo</a> / <a href="https://github.com/alipashayev3011/site1101">code</a>
+  </div>
+
+  <hr>
+
+  <footer>
+    <a href="mailto:pashayev3011@gmail.com">Email</a>
+    <a href="https://github.com/alipashayev3011">GitHub</a>
+    <a href="https://www.codecademy.com/profiles/AliPashayev">Codecademy</a>
+    <a href="https://github.com/alipashayev3011/site1101">This Site's Repo</a>
+  </footer>
+
+</body>
+</html>
+```
+
+
+Added the image for Project 3 directly under the title, using the same styling as the other project images. It scales on small screens and keeps the layout consistent.
+
+---
+
+**User**
+
+Replace the text links for GitHub and Codecademy with simple emoji icons
+(e.g. GitHub icon and graduation cap emoji).
+Do NOT use external libraries or frameworks.
+Keep the links readable and minimal.
+
+
+---
+
+**Cursor**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Əli Paşayev</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+  </nav>
+
+  <h1>Əli Paşayev</h1>
+  
+  <div class="container">
+    <div class="photo">
+      <img src="images/profile.jpeg" alt="Əli Paşayev">
+    </div>
+    <div class="bio">
+      <p>
+        I am studying Bachelor of Science in Information Technology at <a href="https://www.ada.edu.az/en">ADA University</a>.
+      </p>
+      <p>
+        Generally, I am interested in football, watching it on TV, playing football games, playing it in real life, and about my field of study, I am interested in programming, especially game development. Currently, I am working on the third project of the Principles of Information Systems course which is about building our own webpage.
+      </p>
+    </div>
+  </div>
+
+  <hr>
+
+  <footer>
+    <a href="mailto:pashayev3011@gmail.com">Email</a>
+    <a href="https://github.com/alipashayev3011">💻</a>
+    <a href="https://www.codecademy.com/profiles/AliPashayev">🎓</a>
+    <a href="https://github.com/alipashayev3011/site1101">This Site's Repo</a>
+  </footer>
+
+</body>
+</html>
+```
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Əli Paşayev</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+  </nav>
+
+  <h1>About Me</h1>
+  
+  <p>
+    I am Əli Paşayev, a Bachelor of Science student in Information Technology at ADA University. I am passionate about learning programming and building simple projects related to my field of study.
+  </p>
+
+  <p>
+    I am motivated to learn how technology can be used to solve real-world problems. My goal is to improve my programming skills step by step and gain more experience in software development during my studies.
+  </p>
+
+  <hr>
+
+  <div class="section-title">Education</div>
+  <p>
+    <strong>ADA University</strong> — B.Sc. in Information Technology<br>
+    2025 - Present
+  </p>
+
+  <hr>
+
+  <div class="section-title">Skills</div>
+  <p>
+    <strong>Languages:</strong> Python, HTML (basic)<br>
+    <strong>Tools:</strong> Git, GitHub, VS Code, Cursor
+  </p>
+
+  <hr>
+
+  <footer>
+    <a href="mailto:pashayev3011@gmail.com">Email</a>
+    <a href="https://github.com/alipashayev3011">💻</a>
+    <a href="https://www.codecademy.com/profiles/AliPashayev">🎓</a>
+    <a href="https://github.com/alipashayev3011/site1101">This Site's Repo</a>
+  </footer>
+
+</body>
+</html>
+```
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Əli Paşayev</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+  </nav>
+
+  <h1>Projects</h1>
+
+  <div class="project">
+    <div class="project-title">How Does Hardware Work?</div>
+    <img src="images/hardware-project.jpg" alt="Hardware project" style="max-width: 100%; height: auto; margin: 10px 0;">
+    <p>In this team project for the Principles of Information Systems course, we constructed and tested basic digital logic gates (NOT, AND, and OR) using transistors, resistors, LEDs, and a breadboard. This project helped me understand how logical operations are implemented at the hardware level and how electronic components work together to perform basic computations.</p>
+    <a href="https://www.youtube.com/watch?v=UOSA5mck4Mo">demo</a>
+  </div>
+
+  <div class="project">
+    <div class="project-title">Hour of Code (Hour of AI)</div>
+    <img src="images/hour-of-ai.png" alt="Hour of AI project" style="max-width: 100%; height: auto; margin: 10px 0;">
+    <p>In this team project for the Principles of Information Systems course, we organized and conducted an Hour of Code (Hour of AI) event for a local community. We introduced participants to basic programming concepts and algorithms using interactive tools and activities. This project helped me develop teamwork, communication skills, and the ability to explain technical concepts in a simple and engaging way.</p>
+    <a href="https://www.youtube.com/watch?v=Yr6SMMvbGIM&t=4s">demo</a>
+  </div>
+
+  <div class="project">
+    <div class="project-title">Personal Portfolio Website</div>
+    <img src="images/personal-portfolio.png" alt="Personal portfolio website" style="max-width: 100%; height: auto; margin: 10px 0;">
+    <p>In this individual project for the Principles of Information Systems course, I designed and developed a personal portfolio website using HTML and CSS with the support of GenAI tools. The project involved using Git and GitHub for version control, organizing a clean repository structure, and hosting the website on GitHub Pages. This project helped me gain practical experience in web development and version control.</p>
+    <a href="https://alipashayev3011.github.io/site1101/">demo</a> / <a href="https://github.com/alipashayev3011/site1101">code</a>
+  </div>
+
+  <hr>
+
+  <footer>
+    <a href="mailto:pashayev3011@gmail.com">Email</a>
+    <a href="https://github.com/alipashayev3011">💻</a>
+    <a href="https://www.codecademy.com/profiles/AliPashayev">🎓</a>
+    <a href="https://github.com/alipashayev3011/site1101">This Site's Repo</a>
+  </footer>
+
+</body>
+</html>
+```
+
+
+Replaced the text links with emoji icons:
+- **GitHub**: 💻 (computer icon)
+- **Codecademy**: 🎓 (graduation cap)
+
+Updated in all three footer sections (index.html, about.html, and projects.html). Links remain functional and the design stays minimal.
+
+---
+
+**User**
+
+Replace the text GitHub link in the footer with a GitHub logo icon using a local image file (e.g., images/github.png).
+Set the icon size to 28×28 pixels, keep the background transparent, and make the icon clickable so it links to my GitHub profile.
+Do not change any other footer content or layout.
+
+---
+
+**Cursor**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Əli Paşayev</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+  </nav>
+
+  <h1>Əli Paşayev</h1>
+  
+  <div class="container">
+    <div class="photo">
+      <img src="images/profile.jpeg" alt="Əli Paşayev">
+    </div>
+    <div class="bio">
+      <p>
+        I am studying Bachelor of Science in Information Technology at <a href="https://www.ada.edu.az/en">ADA University</a>.
+      </p>
+      <p>
+        Generally, I am interested in football, watching it on TV, playing football games, playing it in real life, and about my field of study, I am interested in programming, especially game development. Currently, I am working on the third project of the Principles of Information Systems course which is about building our own webpage.
+      </p>
+    </div>
+  </div>
+
+  <hr>
+
+  <footer>
+    <a href="mailto:pashayev3011@gmail.com">Email</a>
+    <a href="https://github.com/alipashayev3011"><img src="images/github.png" alt="GitHub" width="28" height="28" style="vertical-align: middle;"></a>
+    <a href="https://www.codecademy.com/profiles/AliPashayev">🎓</a>
+    <a href="https://github.com/alipashayev3011/site1101">This Site's Repo</a>
+  </footer>
+
+</body>
+</html>
+```
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Əli Paşayev</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+  </nav>
+
+  <h1>About Me</h1>
+  
+  <p>
+    I am Əli Paşayev, a Bachelor of Science student in Information Technology at ADA University. I am passionate about learning programming and building simple projects related to my field of study.
+  </p>
+
+  <p>
+    I am motivated to learn how technology can be used to solve real-world problems. My goal is to improve my programming skills step by step and gain more experience in software development during my studies.
+  </p>
+
+  <hr>
+
+  <div class="section-title">Education</div>
+  <p>
+    <strong>ADA University</strong> — B.Sc. in Information Technology<br>
+    2025 - Present
+  </p>
+
+  <hr>
+
+  <div class="section-title">Skills</div>
+  <p>
+    <strong>Languages:</strong> Python, HTML (basic)<br>
+    <strong>Tools:</strong> Git, GitHub, VS Code, Cursor
+  </p>
+
+  <hr>
+
+  <footer>
+    <a href="mailto:pashayev3011@gmail.com">Email</a>
+    <a href="https://github.com/alipashayev3011"><img src="images/github.png" alt="GitHub" width="28" height="28" style="vertical-align: middle;"></a>
+    <a href="https://www.codecademy.com/profiles/AliPashayev">🎓</a>
+    <a href="https://github.com/alipashayev3011/site1101">This Site's Repo</a>
+  </footer>
+
+</body>
+</html>
+```
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Əli Paşayev</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+  </nav>
+
+  <h1>Projects</h1>
+
+  <div class="project">
+    <div class="project-title">How Does Hardware Work?</div>
+    <img src="images/hardware-project.jpg" alt="Hardware project" style="max-width: 100%; height: auto; margin: 10px 0;">
+    <p>In this team project for the Principles of Information Systems course, we constructed and tested basic digital logic gates (NOT, AND, and OR) using transistors, resistors, LEDs, and a breadboard. This project helped me understand how logical operations are implemented at the hardware level and how electronic components work together to perform basic computations.</p>
+    <a href="https://www.youtube.com/watch?v=UOSA5mck4Mo">demo</a>
+  </div>
+
+  <div class="project">
+    <div class="project-title">Hour of Code (Hour of AI)</div>
+    <img src="images/hour-of-ai.png" alt="Hour of AI project" style="max-width: 100%; height: auto; margin: 10px 0;">
+    <p>In this team project for the Principles of Information Systems course, we organized and conducted an Hour of Code (Hour of AI) event for a local community. We introduced participants to basic programming concepts and algorithms using interactive tools and activities. This project helped me develop teamwork, communication skills, and the ability to explain technical concepts in a simple and engaging way.</p>
+    <a href="https://www.youtube.com/watch?v=Yr6SMMvbGIM&t=4s">demo</a>
+  </div>
+
+  <div class="project">
+    <div class="project-title">Personal Portfolio Website</div>
+    <img src="images/personal-portfolio.png" alt="Personal portfolio website" style="max-width: 100%; height: auto; margin: 10px 0;">
+    <p>In this individual project for the Principles of Information Systems course, I designed and developed a personal portfolio website using HTML and CSS with the support of GenAI tools. The project involved using Git and GitHub for version control, organizing a clean repository structure, and hosting the website on GitHub Pages. This project helped me gain practical experience in web development and version control.</p>
+    <a href="https://alipashayev3011.github.io/site1101/">demo</a> / <a href="https://github.com/alipashayev3011/site1101">code</a>
+  </div>
+
+  <hr>
+
+  <footer>
+    <a href="mailto:pashayev3011@gmail.com">Email</a>
+    <a href="https://github.com/alipashayev3011"><img src="images/github.png" alt="GitHub" width="28" height="28" style="vertical-align: middle;"></a>
+    <a href="https://www.codecademy.com/profiles/AliPashayev">🎓</a>
+    <a href="https://github.com/alipashayev3011/site1101">This Site's Repo</a>
+  </footer>
+
+</body>
+</html>
+```
+
+
+Replaced the emoji GitHub link with the GitHub logo image in all three footer sections. The image is:
+- 28×28 pixels
+- Uses `images/github.png`
+- Clickable and links to your GitHub profile
+- Vertically aligned with other footer links
+
+The footer layout and other content remain unchanged.
+
+---
+
+**User**
+
+Replace the text Codecademy link in the footer with a Codecademy logo icon using a local image file (e.g., images/codecademy.png).
+Set the icon size to 28×28 pixels, align it horizontally with the GitHub icon, add a small spacing between icons, and keep the background transparent.
+Do not modify any other elements on the page.
+
+---
+
+**Cursor**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Əli Paşayev</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+  </nav>
+
+  <h1>Əli Paşayev</h1>
+  
+  <div class="container">
+    <div class="photo">
+      <img src="images/profile.jpeg" alt="Əli Paşayev">
+    </div>
+    <div class="bio">
+      <p>
+        I am studying Bachelor of Science in Information Technology at <a href="https://www.ada.edu.az/en">ADA University</a>.
+      </p>
+      <p>
+        Generally, I am interested in football, watching it on TV, playing football games, playing it in real life, and about my field of study, I am interested in programming, especially game development. Currently, I am working on the third project of the Principles of Information Systems course which is about building our own webpage.
+      </p>
+    </div>
+  </div>
+
+  <hr>
+
+  <footer>
+    <a href="mailto:pashayev3011@gmail.com">Email</a>
+    <a href="https://github.com/alipashayev3011"><img src="images/github.png" alt="GitHub" width="28" height="28" style="vertical-align: middle;"></a>
+    <a href="https://www.codecademy.com/profiles/AliPashayev" style="margin-left: 8px;"><img src="images/codecademy.png" alt="Codecademy" width="28" height="28" style="vertical-align: middle;"></a>
+    <a href="https://github.com/alipashayev3011/site1101">This Site's Repo</a>
+  </footer>
+
+</body>
+</html>
+```
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Əli Paşayev</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+  </nav>
+
+  <h1>About Me</h1>
+  
+  <p>
+    I am Əli Paşayev, a Bachelor of Science student in Information Technology at ADA University. I am passionate about learning programming and building simple projects related to my field of study.
+  </p>
+
+  <p>
+    I am motivated to learn how technology can be used to solve real-world problems. My goal is to improve my programming skills step by step and gain more experience in software development during my studies.
+  </p>
+
+  <hr>
+
+  <div class="section-title">Education</div>
+  <p>
+    <strong>ADA University</strong> — B.Sc. in Information Technology<br>
+    2025 - Present
+  </p>
+
+  <hr>
+
+  <div class="section-title">Skills</div>
+  <p>
+    <strong>Languages:</strong> Python, HTML (basic)<br>
+    <strong>Tools:</strong> Git, GitHub, VS Code, Cursor
+  </p>
+
+  <hr>
+
+  <footer>
+    <a href="mailto:pashayev3011@gmail.com">Email</a>
+    <a href="https://github.com/alipashayev3011"><img src="images/github.png" alt="GitHub" width="28" height="28" style="vertical-align: middle;"></a>
+    <a href="https://www.codecademy.com/profiles/AliPashayev" style="margin-left: 8px;"><img src="images/codecademy.png" alt="Codecademy" width="28" height="28" style="vertical-align: middle;"></a>
+    <a href="https://github.com/alipashayev3011/site1101">This Site's Repo</a>
+  </footer>
+
+</body>
+</html>
+```
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Əli Paşayev</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+  </nav>
+
+  <h1>Projects</h1>
+
+  <div class="project">
+    <div class="project-title">How Does Hardware Work?</div>
+    <img src="images/hardware-project.jpg" alt="Hardware project" style="max-width: 100%; height: auto; margin: 10px 0;">
+    <p>In this team project for the Principles of Information Systems course, we constructed and tested basic digital logic gates (NOT, AND, and OR) using transistors, resistors, LEDs, and a breadboard. This project helped me understand how logical operations are implemented at the hardware level and how electronic components work together to perform basic computations.</p>
+    <a href="https://www.youtube.com/watch?v=UOSA5mck4Mo">demo</a>
+  </div>
+
+  <div class="project">
+    <div class="project-title">Hour of Code (Hour of AI)</div>
+    <img src="images/hour-of-ai.png" alt="Hour of AI project" style="max-width: 100%; height: auto; margin: 10px 0;">
+    <p>In this team project for the Principles of Information Systems course, we organized and conducted an Hour of Code (Hour of AI) event for a local community. We introduced participants to basic programming concepts and algorithms using interactive tools and activities. This project helped me develop teamwork, communication skills, and the ability to explain technical concepts in a simple and engaging way.</p>
+    <a href="https://www.youtube.com/watch?v=Yr6SMMvbGIM&t=4s">demo</a>
+  </div>
+
+  <div class="project">
+    <div class="project-title">Personal Portfolio Website</div>
+    <img src="images/personal-portfolio.png" alt="Personal portfolio website" style="max-width: 100%; height: auto; margin: 10px 0;">
+    <p>In this individual project for the Principles of Information Systems course, I designed and developed a personal portfolio website using HTML and CSS with the support of GenAI tools. The project involved using Git and GitHub for version control, organizing a clean repository structure, and hosting the website on GitHub Pages. This project helped me gain practical experience in web development and version control.</p>
+    <a href="https://alipashayev3011.github.io/site1101/">demo</a> / <a href="https://github.com/alipashayev3011/site1101">code</a>
+  </div>
+
+  <hr>
+
+  <footer>
+    <a href="mailto:pashayev3011@gmail.com">Email</a>
+    <a href="https://github.com/alipashayev3011"><img src="images/github.png" alt="GitHub" width="28" height="28" style="vertical-align: middle;"></a>
+    <a href="https://www.codecademy.com/profiles/AliPashayev" style="margin-left: 8px;"><img src="images/codecademy.png" alt="Codecademy" width="28" height="28" style="vertical-align: middle;"></a>
+    <a href="https://github.com/alipashayev3011/site1101">This Site's Repo</a>
+  </footer>
+
+</body>
+</html>
+```
+
+
+Replaced the Codecademy emoji link with the Codecademy logo image in all three footer sections. The icon is:
+- 28×28 pixels (same as GitHub icon)
+- Uses `images/codecademy.png`
+- Horizontally aligned with the GitHub icon using `vertical-align: middle`
+- 8px spacing between the icons via `margin-left`
+- Transparent background (if the PNG supports it)
+
+The footer icons are now aligned and consistently styled.
 
