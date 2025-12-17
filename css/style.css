@@ -1,30 +1,33 @@
 body {
   font-family: Georgia, 'Times New Roman', serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.6;
   max-width: 800px;
-  margin: 40px auto;
-  padding: 0 20px;
-  color: #333;
-  background: #fff;
+  margin: 50px auto;
+  padding: 0 25px;
+  color: #222;
+  background: #fafafa;
 }
 a {
-  color: #0066cc;
+  color: #1a5a96;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
 }
 nav {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 15px;
 }
 nav a {
-  margin-right: 20px;
+  margin-right: 22px;
 }
 h1 {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: normal;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  color: #111;
 }
 .container {
   display: flex;
@@ -38,13 +41,14 @@ h1 {
 .photo img {
   width: 100%;
   height: auto;
-  border-radius: 4px;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
 }
 .bio {
   flex: 1;
 }
 .bio p {
-  margin: 0 0 12px 0;
+  margin: 0 0 14px 0;
 }
 .links {
   margin-top: 20px;
@@ -54,45 +58,49 @@ h1 {
 }
 hr {
   border: none;
-  border-top: 1px solid #ccc;
-  margin: 30px 0;
+  border-top: 1px solid #ddd;
+  margin: 35px 0;
 }
 .section-title {
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
+  color: #111;
 }
 .project {
-  margin-bottom: 25px;
+  margin-bottom: 28px;
 }
 .project-title {
   font-weight: bold;
+  color: #111;
 }
 .project p {
-  margin: 5px 0 8px 0;
-  color: #555;
+  margin: 6px 0 10px 0;
+  color: #444;
 }
 .placeholder-link {
   color: #999;
   cursor: default;
 }
 footer {
-  margin-top: 30px;
+  margin-top: 35px;
   padding: 20px 0;
   font-size: 14px;
+  border-top: 1px solid #e0e0e0;
+  color: #555;
 }
 footer a {
   margin-right: 15px;
 }
 @media (max-width: 600px) {
   body {
-    margin: 20px auto;
+    margin: 25px auto;
     padding: 0 15px;
   }
   h1 {
     font-size: 22px;
   }
   nav {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
   nav a {
     margin-right: 12px;
